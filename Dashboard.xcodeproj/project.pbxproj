@@ -12,6 +12,7 @@
 		ABBC756720A4D56500825365 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABBC756520A4D56500825365 /* Main.storyboard */; };
 		ABBC756920A4D56500825365 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABBC756820A4D56500825365 /* Assets.xcassets */; };
 		ABBC756C20A4D56500825365 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABBC756A20A4D56500825365 /* LaunchScreen.storyboard */; };
+		ABBC757620A54A6000825365 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBC757520A54A6000825365 /* GraphView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		ABBC756820A4D56500825365 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABBC756B20A4D56500825365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABBC756D20A4D56500825365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABBC757520A54A6000825365 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				ABBC756120A4D56500825365 /* AppDelegate.swift */,
 				ABBC756320A4D56500825365 /* ViewController.swift */,
+				ABBC757520A54A6000825365 /* GraphView.swift */,
 				ABBC756520A4D56500825365 /* Main.storyboard */,
 				ABBC756820A4D56500825365 /* Assets.xcassets */,
 				ABBC756A20A4D56500825365 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				ABBC756420A4D56500825365 /* ViewController.swift in Sources */,
 				ABBC756220A4D56500825365 /* AppDelegate.swift in Sources */,
+				ABBC757620A54A6000825365 /* GraphView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +281,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 63BV22WAC6;
 				INFOPLIST_FILE = Dashboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jallen.studios.Dashboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 63BV22WAC6;
 				INFOPLIST_FILE = Dashboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jallen.studios.Dashboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
